@@ -1,14 +1,12 @@
 {
   "lsp": {
-    "luau-lsp": {
+    "lua-language-server": {
       "settings": {
-        "sourcemap": {
-          "enabled": false
-        },
-        "types": {
-          "definitionFiles": ["noctalia.d.luau"]
-        },
-        "ignoreGlobs": ["**/*.d.luau"]
+        "Lua": {
+          "workspace": {
+            "library": ["noctalia.d.luau"]
+          }
+        }
       }
     }
   }
