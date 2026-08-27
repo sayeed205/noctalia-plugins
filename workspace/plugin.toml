@@ -6,7 +6,7 @@ author = "sayeed"
 license = "MIT"
 dependencies = []
 icon = "waving_hand"
-description = "A clickable Niri workspace switcher for the Noctalia bar."
+description = "A compact multi-compositor workspace switcher for the Noctalia bar."
 tags = ["bar", "development", "hyprland", "niri", "sway"]
 
 [[widget]]
