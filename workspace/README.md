@@ -7,12 +7,13 @@ A minimal desktop widget starter for experimenting with Noctalia plugin APIs.
 | Field | Value |
 | --- | --- |
 | ID | `sayeed/workspace` |
-| Entries | Desktop widget: `workspace` |
+| Entries | Bar widget: `workspace-bar`; desktop widget: `workspace` |
 
 ## Usage
 
-Enable the plugin and add the `Workspace` desktop widget from Noctalia's
-widget configuration. It renders a small greeting using the current theme.
+Enable the plugin, then add either the `Workspace` bar widget or desktop widget
+from Noctalia's widget configuration. Both render a small label using the
+current theme.
 
 ## Notes
 
