@@ -12,8 +12,8 @@ button per workspace.
 
 ## Requirements
 
-One supported compositor command must be available on `PATH`: `niri`, `hyprctl`,
-or `swaymsg`.
+One supported compositor command should be available on `PATH`: `niri`,
+`hyprctl`, or `swaymsg`. The plugin detects the available command at runtime.
 
 ## Usage
 
@@ -24,4 +24,5 @@ configuration. Click a workspace button to focus it.
 
 The widget auto-detects Niri, Hyprland, or Sway and polls the compositor's
 native IPC once per second. Other compositors stay dormant until an adapter is
-added. It has no filesystem or network access.
+added. It has no filesystem or network access. The compositor commands are
+optional because only the command for the active compositor is needed.
