@@ -1,7 +1,7 @@
 --!nonstrict
 
 desktopWidget.render(ui.label({
-  text = "Hello from Noctalia",
+  text = "Workspace",
   color = "primary",
   fontSize = 14,
 }))

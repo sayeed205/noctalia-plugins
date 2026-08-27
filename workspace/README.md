@@ -1,4 +1,4 @@
-# Hello World
+# Workspace
 
 A minimal desktop widget starter for experimenting with Noctalia plugin APIs.
 
@@ -6,12 +6,12 @@ A minimal desktop widget starter for experimenting with Noctalia plugin APIs.
 
 | Field | Value |
 | --- | --- |
-| ID | `sayeed/hello-world` |
-| Entries | Desktop widget: `hello` |
+| ID | `sayeed/workspace` |
+| Entries | Desktop widget: `workspace` |
 
 ## Usage
 
-Enable the plugin and add the `Hello World` desktop widget from Noctalia's
+Enable the plugin and add the `Workspace` desktop widget from Noctalia's
 widget configuration. It renders a small greeting using the current theme.
 
 ## Notes

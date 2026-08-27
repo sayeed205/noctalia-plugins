@@ -1,5 +1,5 @@
-id = "sayeed/hello-world"
-name = "Hello World"
+id = "sayeed/workspace"
+name = "Workspace"
 version = "0.1.0"
 plugin_api = 26
 author = "sayeed"
@@ -10,5 +10,5 @@ description = "A minimal desktop widget starter for developing Noctalia plugins.
 tags = ["desktop", "demo", "development"]
 
 [[desktop_widget]]
-id = "hello"
+id = "workspace"
 entry = "widget.luau"
