@@ -1,7 +1,7 @@
 # Noctalia plugin catalog for this source.
 
 [[plugin]]
-id = "sayeed/workspace"
+id = "sayeed205/workspace"
 name = "Workspace"
 version = "0.1.0"
 added_at = 1787817435
@@ -14,7 +14,7 @@ plugin_api = 26
 tags = ["bar", "development", "hyprland", "niri", "sway"]
 
 [[plugin]]
-id = "sayeed/running_apps"
+id = "sayeed205/running_apps"
 name = "Running Apps"
 version = "0.1.0"
 added_at = 1787817435

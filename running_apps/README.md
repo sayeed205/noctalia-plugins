@@ -7,7 +7,7 @@ workspace and lets you focus one with a click.
 
 | Field | Value |
 | --- | --- |
-| ID | `sayeed/running_apps` |
+| ID | `sayeed205/running_apps` |
 | Entries | Bar widget: `running-apps-bar` |
 
 ## Requirements

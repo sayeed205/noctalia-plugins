@@ -7,7 +7,7 @@ dot per workspace.
 
 | Field | Value |
 | --- | --- |
-| ID | `sayeed/workspace` |
+| ID | `sayeed205/workspace` |
 | Entries | Bar widget: `workspace-bar` |
 
 ## Requirements
