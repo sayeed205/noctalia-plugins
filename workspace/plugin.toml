@@ -1,18 +1,14 @@
 id = "sayeed/workspace"
 name = "Workspace"
-version = "0.2.0"
+version = "0.1.0"
 plugin_api = 26
 author = "sayeed"
 license = "MIT"
-dependencies = []
+dependencies = ["niri"]
 icon = "waving_hand"
-description = "A minimal desktop widget starter for developing Noctalia plugins."
-tags = ["bar", "desktop", "demo", "development"]
+description = "A clickable Niri workspace switcher for the Noctalia bar."
+tags = ["bar", "development", "niri"]
 
 [[widget]]
 id = "workspace-bar"
-entry = "bar.luau"
-
-[[desktop_widget]]
-id = "workspace"
 entry = "widget.luau"

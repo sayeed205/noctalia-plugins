@@ -1,22 +1,24 @@
 # Workspace
 
-A minimal desktop widget starter for experimenting with Noctalia plugin APIs.
+A bar-only workspace switcher for Niri, with one clickable button per workspace.
 
 ## Plugin
 
 | Field | Value |
 | --- | --- |
 | ID | `sayeed/workspace` |
-| Entries | Bar widget: `workspace-bar`; desktop widget: `workspace` |
+| Entries | Bar widget: `workspace-bar` |
+
+## Requirements
+
+The `niri` command must be installed and available on `PATH`.
 
 ## Usage
 
-Enable the plugin, then add either the `Workspace` bar widget or desktop widget
-from Noctalia's widget configuration. Both render a small label using the
-current theme.
+Install `niri` and enable the plugin. Add the `Workspace` bar widget from
+Noctalia's bar configuration. Click a workspace button to focus it.
 
 ## Notes
 
-This starter has no external dependencies, settings, network calls, filesystem
-writes, or spawned processes. Replace the widget and manifest as development
-progresses, and bump `version` for each published change.
+The widget reads Niri's workspace state through `niri msg` and listens to its
+event stream. It is intended for Niri and has no filesystem or network access.
