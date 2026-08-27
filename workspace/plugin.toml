@@ -4,10 +4,10 @@ version = "0.1.0"
 plugin_api = 26
 author = "sayeed"
 license = "MIT"
-dependencies = ["niri"]
+dependencies = ["niri", "hyprctl", "swaymsg"]
 icon = "waving_hand"
 description = "A clickable Niri workspace switcher for the Noctalia bar."
-tags = ["bar", "development", "niri"]
+tags = ["bar", "development", "hyprland", "niri", "sway"]
 
 [[widget]]
 id = "workspace-bar"

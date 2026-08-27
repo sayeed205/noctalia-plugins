@@ -1,6 +1,7 @@
 # Workspace
 
-A bar-only workspace switcher for Niri, with one clickable button per workspace.
+A bar-only workspace switcher for Niri, Hyprland, and Sway, with one clickable
+button per workspace.
 
 ## Plugin
 
@@ -11,14 +12,16 @@ A bar-only workspace switcher for Niri, with one clickable button per workspace.
 
 ## Requirements
 
-The `niri` command must be installed and available on `PATH`.
+One supported compositor command must be available on `PATH`: `niri`, `hyprctl`,
+or `swaymsg`.
 
 ## Usage
 
-Install `niri` and enable the plugin. Add the `Workspace` bar widget from
-Noctalia's bar configuration. Click a workspace button to focus it.
+Enable the plugin and add the `Workspace` bar widget from Noctalia's bar
+configuration. Click a workspace button to focus it.
 
 ## Notes
 
-The widget reads Niri's workspace state through `niri msg` and listens to its
-event stream. It is intended for Niri and has no filesystem or network access.
+The widget auto-detects Niri, Hyprland, or Sway and polls the compositor's
+native IPC once per second. Other compositors stay dormant until an adapter is
+added. It has no filesystem or network access.
