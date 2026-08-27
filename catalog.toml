@@ -1,0 +1,27 @@
+# Noctalia plugin catalog for this source.
+
+[[plugin]]
+id = "sayeed/workspace"
+name = "Workspace"
+version = "0.1.0"
+added_at = 1787817435
+updated_at = 1787817435
+author = "sayeed"
+license = "MIT"
+icon = "waving_hand"
+description = "A compact multi-compositor workspace switcher for the Noctalia bar."
+plugin_api = 26
+tags = ["bar", "development", "hyprland", "niri", "sway"]
+
+[[plugin]]
+id = "sayeed/running_apps"
+name = "Running Apps"
+version = "0.1.0"
+added_at = 1787817435
+updated_at = 1787817435
+author = "sayeed"
+license = "MIT"
+icon = "apps"
+description = "A compact bar switcher for windows on the active Hyprland workspace."
+plugin_api = 26
+tags = ["bar", "hyprland", "windows"]
