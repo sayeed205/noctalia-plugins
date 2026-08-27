@@ -1,0 +1,14 @@
+id = "sayeed/running_apps"
+name = "Running Apps"
+version = "0.1.0"
+plugin_api = 26
+author = "sayeed"
+license = "MIT"
+dependencies = []
+icon = "apps"
+description = "A compact bar switcher for windows on the active Hyprland workspace."
+tags = ["bar", "hyprland", "windows"]
+
+[[widget]]
+id = "running-apps-bar"
+entry = "widget.luau"
