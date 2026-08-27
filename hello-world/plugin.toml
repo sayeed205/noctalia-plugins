@@ -1,0 +1,14 @@
+id = "sayeed/hello-world"
+name = "Hello World"
+version = "0.1.0"
+plugin_api = 26
+author = "sayeed"
+license = "MIT"
+dependencies = []
+icon = "waving_hand"
+description = "A minimal desktop widget starter for developing Noctalia plugins."
+tags = ["desktop", "demo", "development"]
+
+[[desktop_widget]]
+id = "hello"
+entry = "widget.luau"
